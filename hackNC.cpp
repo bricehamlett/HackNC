@@ -464,7 +464,7 @@ void env9 ()
 // Door Option 10
 void env10 ()
 {
-    cout << "\nNARRATOR: You walk into the next room and find a giant fish tank/aquarium. The tank is filled with chomping hungry pirhanas. "
+    cout << "\nNARRATOR: You walk into the next room and find a giant fish tank/aquarium. The tank is filled with chomping hungry piranhas. "
         << "There are two paths to the next door: right or left. One of the paths let you pass safely, and the other path opens the tank, releasing the piranhas on you. "
         << "Which do you choose? L or R: " << endl;
     if (items > 0)
@@ -475,7 +475,7 @@ void env10 ()
 
     if (choice == 'L' || choice == 'l')
     {
-        cout << "Wrong choice! The tank opens and you're eaten by pirhanas." << endl;
+        cout << "Wrong choice! The tank opens and you're eaten by piranhas." << endl;
         alive = false;
     }
 
